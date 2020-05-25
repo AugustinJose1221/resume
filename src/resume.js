@@ -1,21 +1,22 @@
 import React, { Component } from 'react'
+//import './css/style.css';
+import { Container, Row, Col } from 'react-grid-system';
+const Resume = () => {
+  return (
+    <Container>
+    <Row>
+      <Col sm={4}>
+        One of three columns
+      </Col>
+      <Col sm={4}>
+        One of three columns
+      </Col>
+      <Col sm={4}>
+        One of three columns
+      </Col>
+    </Row>
+</Container>
+  );
+}
 
-export default class Resume extends Component {
-  render() {
-    return (
-      <div className="container">
-        <div className="row">
-          <div className="col-sm">
-            One of three columns
-          </div>
-          <div className="col-sm">
-            One of three columns
-          </div>
-          <div className="col-sm">
-            One of three columns
-        </div>
-      </div>
-    </div>
-    )
-}
-}
+export default Resume;
