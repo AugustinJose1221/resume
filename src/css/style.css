@@ -1,0 +1,32 @@
+.Header {
+  background: #2b2b28;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+}
+
+.Header p{
+  color: #e3b04b;
+}
+
+.Profile {
+  background: #e3b04b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: auto;
+}
+
+.Profile img{
+  width: 100%;
+  position: center;
+  border-radius: 50%;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+.Profile h1{
+  color: #2b2b28;
+  text-align: center;
+}
