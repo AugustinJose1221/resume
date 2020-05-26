@@ -319,6 +319,49 @@ const Resume = () => {
         </div>
       </section>
 
+      <section className="Skills">
+      <Container>
+        <Row>
+          <Col sm={2}>
+          </Col>
+          <Col sm={8}>
+            <h1>Contacts</h1>
+          </Col>
+          <Col sm={2}>
+          </Col>
+        </Row>
+        <Row>
+        <Col sm={4}>
+        </Col>
+        <Col sm={6}>
+        <div className="Skill-left">
+          <h3>Nedumkandathil (H)</h3>
+          <h3>Cheranalloor P O</h3>
+          <h5><span>Ernakulam</span> | Kerala</h5>
+        </div>
+        </Col>
+        <Col sm={4}>
+        </Col>
+        </Row>
+        <Row>
+        <Col sm={4}>
+        </Col>
+        <Col sm={8}>
+        <div className="Contacts-icon">
+          <a href={"https://www.augustinjose.com/"}><img src={ require('./img/Icons/website.png') } /></a>
+          <a href={"https://mail.google.com/mail/?view=cm&fs=1&to=augustinjose1221@gmail.com"}><img src={ require('./img/Icons/mail.png') } /></a>
+          <a href={"+919526538661"}><img src={ require('./img/Icons/phone.png') } title={"+91 9526538661"}/></a>
+          <a href={"https://github.com/AugustinJose1221"}><img src={ require('./img/Icons/github.png') } /></a>
+        </div>
+        </Col>
+        <Col sm={2}>
+        </Col>
+        </Row>
+        </Container>
+        <div className="title">
+        </div>
+      </section>
+
   </div>
   );
 }

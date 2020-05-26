@@ -294,6 +294,17 @@ h1{
  .Skill-left span{
    color: #666666;
  }
+.Contacts-icon {
+  align-items: center;
+}
+ .Contacts-icon img {
+   padding-left: 10px;
+   width: 4%;
+ }
+
+ .Contacts-icon img:hover {
+   opacity: 0.5;
+ }
 @media screen and (max-height: 450px) {
   .Summary {padding-bottom: 50px;}
   .Summary .title{visibility: hidden;}
