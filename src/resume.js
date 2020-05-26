@@ -7,9 +7,9 @@ const Resume = () => {
     <div>
     <div className="sidebar">
     <a href={"https://www.augustinjose.com/"}><img src={ require('./img/Icons/website.png') } /></a>
-    <img src={ require('./img/Icons/mail.png') } />
-    <img src={ require('./img/Icons/phone.png') } />
-    <img src={ require('./img/Icons/github.png') } />
+    <a href={"https://mail.google.com/mail/?view=cm&fs=1&to=augustinjose1221@gmail.com"}><img src={ require('./img/Icons/mail.png') } /></a>
+    <a href={"+919526538661"}><img src={ require('./img/Icons/phone.png') } title={"+91 9526538661"}/></a>
+    <a href={"https://github.com/AugustinJose1221"}><img src={ require('./img/Icons/github.png') } /></a>
     </div>
       <section className="Header">
         <Container>
@@ -31,7 +31,7 @@ const Resume = () => {
           </Col>
           <Col sm={4}>
           <img src={ require('./img/Augustin.JPG') } />
-          <h1>Augustin Jose</h1>
+          <h2>Augustin Jose</h2>
           <div className="container">
             <div className="icon">
               <svg id="sign" width="184" height="80" viewBox="0 0 1571 682" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,6 +59,9 @@ const Resume = () => {
           </Col>
         </Row>
       </Container>
+      </section>
+      <section className="Summary">
+      <h1>Summary</h1>
       </section>
   </div>
   );
