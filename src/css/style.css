@@ -180,8 +180,23 @@ h2{
 }
 
 h1{
+  z-index: 1;
+  background: #f8f8f8;
+  position: relative;
   text-transform: uppercase;
-  font: 400 650%/130% 'Open Sans';
+  font: 300 650%/130% 'Lato';
   text-align: center;
   text-shadow: #C0C0C0 -1px 1px 0,#C2C2C2 -2px 2px 0,#C3C3C3 -3px 3px 0,#C5C5C5 -4px 4px 0,#C6C6C6 -5px 5px 0,#C8C8C8 -6px 6px 0,#C9C9C9 -7px 7px 0,#CBCBCB -8px 8px 0,#CCC -9px 9px 0,#CECECE -10px 10px 0,#CFCFCF -11px 11px 0,#D1D1D1 -12px 12px 0,#D2D2D2 -13px 13px 0,#D4D4D4 -14px 14px 0,#D5D5D5 -15px 15px 0,#D7D7D7 -16px 16px 0,#D8D8D8 -17px 17px 0,#DADADA -18px 18px 0,#DBDBDB -19px 19px 0,#DDD -20px 20px 0,#DFDFDF -21px 21px 0,#E0E0E0 -22px 22px 0,#E2E2E2 -23px 23px 0,#E3E3E3 -24px 24px 0,#E5E5E5 -25px 25px 0,#E6E6E6 -26px 26px 0,#E8E8E8 -27px 27px 0,#E9E9E9 -28px 28px 0,#EBEBEB -29px 29px 0,#ECECEC -30px 30px 0,#EEE -31px 31px 0,#EFEFEF -32px 32px 0,#F1F1F1 -33px 33px 0,#F2F2F2 -34px 34px 0,#F4F4F4 -35px 35px 0,#F5F5F5 -36px 36px 0,#F7F7F7 -37px 37px 0,#F8F8F8 -38px 38px 0,#FAFAFA -39px 39px 0,#FBFBFB -40px 40px 0,#FDFDFD -41px 41px 0,#FFF -42px 42px 0;
 }
+
+.Summary .title::before {
+    transition: .6s;
+    content: '';
+    position: absolute;
+    left: 2%;
+    top: 109%;
+    width: 96%;
+    height: 5px;
+    background: #D4D4D4;
+    pointer-events: none;
+  }

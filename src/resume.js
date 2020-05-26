@@ -61,7 +61,20 @@ const Resume = () => {
       </Container>
       </section>
       <section className="Summary">
-      <h1>Summary</h1>
+      <Container>
+        <Row>
+          <Col sm={2}>
+          </Col>
+          <Col sm={8}>
+          <h1>Summary</h1>
+          </Col>
+          <Col sm={2}>
+          </Col>
+        </Row>
+      </Container>
+      <div className="title">
+
+        </div>
       </section>
   </div>
   );
