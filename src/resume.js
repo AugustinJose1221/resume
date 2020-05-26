@@ -45,8 +45,6 @@ const Resume = () => {
               <path d="M1140.43 104.943C1148.09 102.945 1155.75 100.946 1161.42 99.6143C1167.08 98.2822 1170.74 97.6161 1174.41 96.9501" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
               </g>
               </svg>
-
-
             </div>
           </div>
 
