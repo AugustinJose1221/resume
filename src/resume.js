@@ -79,7 +79,42 @@ const Resume = () => {
         </Row>
       </Container>
       <div className="title">
+        </div>
+      </section>
 
+      <section className="Timeline">
+      <Container>
+        <Row>
+          <Col sm={2}>
+          </Col>
+          <Col sm={8}>
+            <h1>Timeline</h1>
+          </Col>
+          <Col sm={2}>
+          </Col>
+        </Row>
+        <Row>
+        <Col sm={5}>
+        <p align={"justify"}>Knowledgeable engineering student with solid grasp of
+                             development, implementation and optimization of controller
+                             circuits. Able to apply core concepts and theories of electrical
+                             engineering to design planning and layout optimization.
+                             Ready to bring two years' experience to dynamic position in
+                             fast-paced environment.</p>
+        </Col>
+        <Col sm={2}>
+        </Col>
+        <Col sm={5}>
+        <p align={"justify"}>Knowledgeable engineering student with solid grasp of
+                             development, implementation and optimization of controller
+                             circuits. Able to apply core concepts and theories of electrical
+                             engineering to design planning and layout optimization.
+                             Ready to bring two years' experience to dynamic position in
+                             fast-paced environment.</p>
+        </Col>
+        </Row>
+      </Container>
+      <div className="title">
         </div>
       </section>
   </div>

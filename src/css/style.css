@@ -175,6 +175,7 @@ h2{
 
 .Summary{
   background: #f8f8f8;
+  padding-bottom: 200px;
 }
 
 h1{
@@ -207,7 +208,29 @@ h1{
   color: #575757;
 }
 
+.Timeline{
+  background: #f8f8f8;
+}
 
+.Timeline .title::before {
+    transition: .6s;
+    content: '';
+    position: absolute;
+    left: 2%;
+    top: 184%;
+    width: 96%;
+    height: 5px;
+    background: #D4D4D4;
+    pointer-events: none;
+  }
+
+.Timeline p {
+  padding-left: 10px;
+  border-left-color: #f1d6ab;
+  border-left-style: solid;
+  font: 500 95% 'Raleway';
+  color: #575757;
+}
 
 @media screen and (max-height: 450px) {
   .Summary .title{visibility: hidden;}
