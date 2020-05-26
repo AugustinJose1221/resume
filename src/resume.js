@@ -5,12 +5,6 @@ import { Link } from 'react-router-dom';
 const Resume = () => {
   return (
     <div>
-    <div className="sidebar">
-    <a href={"https://www.augustinjose.com/"}><img src={ require('./img/Icons/website.png') } /></a>
-    <a href={"https://mail.google.com/mail/?view=cm&fs=1&to=augustinjose1221@gmail.com"}><img src={ require('./img/Icons/mail.png') } /></a>
-    <a href={"+919526538661"}><img src={ require('./img/Icons/phone.png') } title={"+91 9526538661"}/></a>
-    <a href={"https://github.com/AugustinJose1221"}><img src={ require('./img/Icons/github.png') } /></a>
-    </div>
       <section className="Header">
         <Container>
           <Row>
@@ -158,25 +152,25 @@ const Resume = () => {
         </Col>
         <Col sm={6}>
         <div className="Skill-left">
-        <p>Verilog and Controller Programming</p>
+          <p>Verilog and Controller Programming</p>
         </div>
         <div className="Skill-left">
-        <p>Advanced knowledge of C and C++</p>
+          <p>Advanced knowledge of C and C++</p>
         </div>
         <div className="Skill-left">
-        <p>Python</p>
+          <p>Python</p>
         </div>
         <div className="Skill-left">
-        <p>REST and Django Framework</p>
+          <p>REST and Django Framework</p>
         </div>
         <div className="Skill-left">
-        <p>OpenCV</p>
+          <p>OpenCV</p>
         </div>
         <div className="Skill-left">
-        <p>Natural Language Processing</p>
+          <p>Natural Language Processing</p>
         </div>
         <div className="Skill-left">
-        <p>Quantum Computing and QML</p>
+          <p>Quantum Computing and QML</p>
         </div>
         </Col>
         <Col sm={4}>
@@ -186,6 +180,145 @@ const Resume = () => {
         <div className="title">
         </div>
       </section>
+
+      <section className="Skills">
+      <Container>
+        <Row>
+          <Col sm={2}>
+          </Col>
+          <Col sm={8}>
+            <h1>Projects</h1>
+          </Col>
+          <Col sm={2}>
+          </Col>
+        </Row>
+        <Row>
+        <Col sm={4}>
+        </Col>
+        <Col sm={6}>
+        <div className="Skill-left">
+          <p>Developed a 32 point radix-2 Fast Fourier Transform module in Verilog</p>
+        </div>
+        <div className="Skill-left">
+          <p>Developed a customizable shell script written in Python</p>
+        </div>
+        <div className="Skill-left">
+          <p>An attention based speed governor system that can  be implemented in electric vehicles to reduce accidents on the road.</p>
+        </div>
+        <div className="Skill-left">
+          <p>NLP based word suggestion generator using Skipgram Algorithm</p>
+        </div>
+        <div className="Skill-left">
+          <p>Created an 8bit computer from scratch</p>
+        </div>
+        <div className="Skill-left">
+          <p>An android app that summarizes research papers and scientific publications to required number of words</p>
+        </div>
+        <div className="Skill-left">
+          <p>Developed web backend for an online pay and park service</p>
+        </div>
+        <div className="Skill-left">
+          <p>A Dialysis scheduling program for hospitals to make a schedule for patients based on their current medical state.</p>
+        </div>
+        <div className="Skill-left">
+          <p>A musical Tesla coil using ZVS driver circuit</p>
+        </div>
+        <div className="Skill-left">
+          <p>IOT based health monitoring system that monitors vital data like blood pressure and heart rate in real time and displays it to the user through a web interface</p>
+        </div>
+        </Col>
+        <Col sm={4}>
+        </Col>
+        </Row>
+        </Container>
+        <div className="title">
+        </div>
+      </section>
+
+      <section className="Skills">
+      <Container>
+        <Row>
+          <Col sm={2}>
+          </Col>
+          <Col sm={8}>
+            <h1>Achievements</h1>
+          </Col>
+          <Col sm={2}>
+          </Col>
+        </Row>
+        <Row>
+        <Col sm={4}>
+        </Col>
+        <Col sm={6}>
+        <div className="Skill-left">
+          <h3>Founder</h3>
+          <h5><span>CirQle</span> | Mar 2020</h5>
+        </div>
+        <div className="Skill-left">
+          <h3>Co-founder</h3>
+          <h5><span>Tinkerhub CET</span> | May 2019</h5>
+        </div>
+        <div className="Skill-left">
+          <h3>Crew Member</h3>
+          <h5><span>Payload Subsystem for CETSAT</span> | May 2018</h5>
+        </div>
+        <div className="Skill-left">
+          <h3>Crew Member</h3>
+          <h5><span>RISC V Microprocessor Project</span> | Feb 2020</h5>
+        </div>
+        <div className="Skill-left">
+          <h3>Project Coordinator</h3>
+          <h5><span>TESLA'20</span> | Feb 2020</h5>
+        </div>
+        <div className="Skill-left">
+          <h3>Technical Coordinator</h3>
+          <h5><span>IEEE SB-CET</span> | Jan 2019</h5>
+        </div>
+        <div className="Skill-left">
+          <h3>Associate Editor</h3>
+          <h5><span>GRID'19</span> | Mar 2019</h5>
+        </div>
+        </Col>
+        <Col sm={4}>
+        </Col>
+        </Row>
+        </Container>
+        <div className="title">
+        </div>
+      </section>
+
+      <section className="Skills">
+      <Container>
+        <Row>
+          <Col sm={2}>
+          </Col>
+          <Col sm={8}>
+            <h1>Reference</h1>
+          </Col>
+          <Col sm={2}>
+          </Col>
+        </Row>
+        <Row>
+        <Col sm={4}>
+        </Col>
+        <Col sm={6}>
+        <div className="Skill-left">
+          <h3>Dr. Mayadevi N</h3>
+          <h5><span>Associate Professor</span> | College of Engineering Trivandrum</h5>
+        </div>
+        <div className="Skill-left">
+          <h3>Rajith Ravi</h3>
+          <h5><span>CEO</span> | Concepts.ai</h5>
+        </div>
+        </Col>
+        <Col sm={4}>
+        </Col>
+        </Row>
+        </Container>
+        <div className="title">
+        </div>
+      </section>
+
   </div>
   );
 }
