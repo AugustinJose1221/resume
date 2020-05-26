@@ -67,6 +67,12 @@ const Resume = () => {
           </Col>
           <Col sm={8}>
           <h1>Summary</h1>
+          <p align={"justify"}>Knowledgeable engineering student with solid grasp of
+                               development, implementation and optimization of controller
+                               circuits. Able to apply core concepts and theories of electrical
+                               engineering to design planning and layout optimization.
+                               Ready to bring two years' experience to dynamic position in
+                               fast-paced environment.</p>
           </Col>
           <Col sm={2}>
           </Col>

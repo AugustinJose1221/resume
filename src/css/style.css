@@ -200,3 +200,11 @@ h1{
     background: #D4D4D4;
     pointer-events: none;
   }
+
+.Summary p {
+  padding-left: 10px;
+  border-left-color: #f1d6ab;
+  border-left-style: solid;
+  font: 500 95% 'Raleway';
+  color: #575757;
+}
