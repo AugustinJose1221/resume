@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.ca958f20.chunk.css",
-    "main.js": "/resume/static/js/main.7a55bfa9.chunk.js",
-    "main.js.map": "/resume/static/js/main.7a55bfa9.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.a54ac2ac.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.a54ac2ac.js.map",
-    "static/js/2.56e26d95.chunk.js": "/resume/static/js/2.56e26d95.chunk.js",
-    "static/js/2.56e26d95.chunk.js.map": "/resume/static/js/2.56e26d95.chunk.js.map",
-    "index.html": "/resume/index.html",
-    "precache-manifest.6b9f7d1f8a0b033258c61bfee5315bc9.js": "/resume/precache-manifest.6b9f7d1f8a0b033258c61bfee5315bc9.js",
-    "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.ca958f20.chunk.css.map": "/resume/static/css/main.ca958f20.chunk.css.map",
-    "static/js/2.56e26d95.chunk.js.LICENSE.txt": "/resume/static/js/2.56e26d95.chunk.js.LICENSE.txt",
-    "static/media/Augustin.JPG": "/resume/static/media/Augustin.b0eb8c23.JPG",
-    "static/media/github.png": "/resume/static/media/github.225bdec4.png",
-    "static/media/logo.svg": "/resume/static/media/logo.5d5d9eef.svg",
-    "static/media/website.png": "/resume/static/media/website.5f706c91.png"
+    "main.css": "/static/css/main.ca958f20.chunk.css",
+    "main.js": "/static/js/main.07df3870.chunk.js",
+    "main.js.map": "/static/js/main.07df3870.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8b434d9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8b434d9.js.map",
+    "static/js/2.56e26d95.chunk.js": "/static/js/2.56e26d95.chunk.js",
+    "static/js/2.56e26d95.chunk.js.map": "/static/js/2.56e26d95.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d40080645e5ab9ad11309ce898c3c75d.js": "/precache-manifest.d40080645e5ab9ad11309ce898c3c75d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ca958f20.chunk.css.map": "/static/css/main.ca958f20.chunk.css.map",
+    "static/js/2.56e26d95.chunk.js.LICENSE.txt": "/static/js/2.56e26d95.chunk.js.LICENSE.txt",
+    "static/media/Augustin.JPG": "/static/media/Augustin.b0eb8c23.JPG",
+    "static/media/github.png": "/static/media/github.225bdec4.png",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/website.png": "/static/media/website.5f706c91.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a54ac2ac.js",
+    "static/js/runtime-main.c8b434d9.js",
     "static/js/2.56e26d95.chunk.js",
     "static/css/main.ca958f20.chunk.css",
-    "static/js/main.7a55bfa9.chunk.js"
+    "static/js/main.07df3870.chunk.js"
   ]
 }
