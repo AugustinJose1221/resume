@@ -164,6 +164,9 @@ const Resume = () => {
           <p>REST and Django Framework</p>
         </div>
         <div className="Skill-left">
+          <p>ReactJS</p>
+        </div>
+        <div className="Skill-left">
           <p>OpenCV</p>
         </div>
         <div className="Skill-left">
@@ -361,6 +364,20 @@ const Resume = () => {
         <div className="title">
         </div>
       </section>
+
+      <section className="Header">
+        <Container>
+          <Row>
+            <Col sm={4}>
+            </Col>
+            <Col sm={4}>
+            <p align="center">© 2020 Made by Augustin Jose</p>
+            </Col>
+            <Col sm={4}>
+            </Col>
+          </Row>
+        </Container>
+    </section>
 
   </div>
   );
