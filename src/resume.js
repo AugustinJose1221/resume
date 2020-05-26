@@ -111,12 +111,16 @@ const Resume = () => {
         </Col>
         <Col sm={5}>
         <h2 className="Work">Work Experience</h2>
-        <p className="W-text" align={"justify"}>Knowledgeable engineering student with solid grasp of
-                             development, implementation and optimization of controller
-                             circuits. Able to apply core concepts and theories of electrical
-                             engineering to design planning and layout optimization.
-                             Ready to bring two years' experience to dynamic position in
-                             fast-paced environment.</p>
+        <div className="W1">
+          <h3>Research Associate</h3>
+          <h5><span>Dr. Mayadevi N</span> | Feb 2020 - NOW</h5>
+          <p align={"left"}>Bachelor of Technology in Electrical and Electronics Engineering</p>
+        </div>
+        <div className="W1">
+          <h3>Intern</h3>
+          <h5><span>Concepts.ai</span> | May 2019 - Sept 2019</h5>
+          <p align={"left"}>Higher Secondary Education</p>
+        </div>
         </Col>
         </Row>
       </Container>

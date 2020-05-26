@@ -239,12 +239,23 @@ h1{
   color: #aaaaaa;
 }
 
-.W-text {
-  padding-left: 10px;
-  border-left-color: #bae5e5;
+.W1 {
+  border-left-color: #cbe2b0;
   border-left-style: solid;
+  padding-left: 10px;
 }
 
+.W1 h3 {
+  text-align: left;
+}
+
+.W1 h5 {
+  text-align: left;
+  color: #aaaaaa;
+}
+ .W1 span{
+   color: #666666;
+ }
 .Timeline p {
   font: 500 95% 'Raleway';
   color: #575757;
