@@ -95,17 +95,23 @@ const Resume = () => {
         </Row>
         <Row>
         <Col sm={5}>
-        <p align={"justify"}>Knowledgeable engineering student with solid grasp of
-                             development, implementation and optimization of controller
-                             circuits. Able to apply core concepts and theories of electrical
-                             engineering to design planning and layout optimization.
-                             Ready to bring two years' experience to dynamic position in
-                             fast-paced environment.</p>
+        <h2 className="Education">Education</h2>
+        <div className="E1">
+          <h3>College of Engineering Trivandrum</h3>
+          <h5>2017 - NOW</h5>
+          <p align={"right"}>Bachelor of Technology in Electrical and Electronics Engineering</p>
+        </div>
+        <div className="E1">
+          <h3>St. Thomas' HSS, Malayattoor</h3>
+          <h5>2015 - 2017</h5>
+          <p align={"right"}>Higher Secondary Education</p>
+        </div>
         </Col>
         <Col sm={2}>
         </Col>
         <Col sm={5}>
-        <p align={"justify"}>Knowledgeable engineering student with solid grasp of
+        <h2 className="Work">Work Experience</h2>
+        <p className="W-text" align={"justify"}>Knowledgeable engineering student with solid grasp of
                              development, implementation and optimization of controller
                              circuits. Able to apply core concepts and theories of electrical
                              engineering to design planning and layout optimization.

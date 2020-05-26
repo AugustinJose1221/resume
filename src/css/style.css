@@ -224,14 +224,50 @@ h1{
     pointer-events: none;
   }
 
-.Timeline p {
+.E1 {
+  border-right-color: #cbe2b0;
+  border-right-style: solid;
+  padding-right: 10px;
+}
+
+.E1 h3 {
+  text-align: right;
+}
+
+.E1 h5 {
+  text-align: right;
+  color: #aaaaaa;
+}
+
+.W-text {
   padding-left: 10px;
-  border-left-color: #f1d6ab;
+  border-left-color: #bae5e5;
   border-left-style: solid;
+}
+
+.Timeline p {
   font: 500 95% 'Raleway';
   color: #575757;
 }
 
+.Education {
+  color: #cbe2b0;
+  text-align: right;
+  border-bottom-color: #cbe2b0;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+}
+
+.Work {
+  color: #bae5e5;
+  text-align: left;
+  border-bottom-color: #bae5e5;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+}
+.Timeline h2{
+  font: 400 300% 'Lato';
+}
 @media screen and (max-height: 450px) {
   .Summary .title{visibility: hidden;}
   .Summary h1{font-size: 300%;}
