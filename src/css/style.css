@@ -5,15 +5,16 @@ h2{
   font-size: 32px;
 }
 .sidebar {
+  opacity: 0.3;
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 40px; /* Set the width of the sidebar */
+  width: 20px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: 0;
   background-color: none; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 150px;
+  padding-top: 120px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -22,10 +23,7 @@ h2{
   padding-bottom: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidebar {visibility: hidden;}
-  .sidebar {padding-right: 1px;}
-}
+
 
 .Header {
   background: #2b2b28;
@@ -207,4 +205,13 @@ h1{
   border-left-style: solid;
   font: 500 95% 'Raleway';
   color: #575757;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .Summary .title{visibility: hidden;}
+  .Summary h1{font-size: 300%;}
+  .sidebar {visibility: hidden;}
+  .sidebar {padding-right: 1px;}
 }
