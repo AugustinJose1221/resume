@@ -276,9 +276,35 @@ h1{
   border-bottom-style: solid;
   border-bottom-width: thick;
 }
+
 .Timeline h2{
   font: 400 300% 'Lato';
 }
+
+.Skills{
+  background: #f8f8f8;
+}
+
+.Skills .title::before {
+  transition: .6s;
+  content: '';
+  position: absolute;
+  left: 2%;
+  top: 184%;
+  width: 96%;
+  height: 5px;
+  background: #D4D4D4;
+  pointer-events: none;
+}
+
+.Skill-left {
+  text-align: left;
+  border-left-color: #f1d6ab;
+  border-left-style: solid;
+  padding-left: 10px;
+}
+
+
 @media screen and (max-height: 450px) {
   .Summary .title{visibility: hidden;}
   .Summary h1{font-size: 300%;}

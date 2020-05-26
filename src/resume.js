@@ -142,6 +142,50 @@ const Resume = () => {
       <div className="title">
         </div>
       </section>
+      <section className="Skills">
+      <Container>
+        <Row>
+          <Col sm={2}>
+          </Col>
+          <Col sm={8}>
+            <h1>Skills</h1>
+          </Col>
+          <Col sm={2}>
+          </Col>
+        </Row>
+        <Row>
+        <Col sm={4}>
+        </Col>
+        <Col sm={6}>
+        <div className="Skill-left">
+        <p>Verilog and Controller Programming</p>
+        </div>
+        <div className="Skill-left">
+        <p>Advanced knowledge of C and C++</p>
+        </div>
+        <div className="Skill-left">
+        <p>Python</p>
+        </div>
+        <div className="Skill-left">
+        <p>REST and Django Framework</p>
+        </div>
+        <div className="Skill-left">
+        <p>OpenCV</p>
+        </div>
+        <div className="Skill-left">
+        <p>Natural Language Processing</p>
+        </div>
+        <div className="Skill-left">
+        <p>Quantum Computing and QML</p>
+        </div>
+        </Col>
+        <Col sm={4}>
+        </Col>
+        </Row>
+        </Container>
+        <div className="title">
+        </div>
+      </section>
   </div>
   );
 }
