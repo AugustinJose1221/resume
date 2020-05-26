@@ -372,6 +372,7 @@ const Resume = () => {
             </Col>
             <Col sm={4}>
             <p align="center">© 2020 Made by Augustin Jose</p>
+            <p align="center"><font size={"1"}>Made with ReactJS</font></p>
             </Col>
             <Col sm={4}>
             </Col>
