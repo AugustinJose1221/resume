@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
 import './css/style.css';
 import { Container, Row, Col } from 'react-grid-system';
+import { Link } from 'react-router-dom';
 const Resume = () => {
   return (
     <div>
+    <div className="sidebar">
+    <a href={"https://www.augustinjose.com/"}><img src={ require('./img/Icons/website.png') } /></a>
+    <img src={ require('./img/Icons/mail.png') } />
+    <img src={ require('./img/Icons/phone.png') } />
+    <img src={ require('./img/Icons/github.png') } />
+    </div>
       <section className="Header">
         <Container>
           <Row>
@@ -47,7 +54,6 @@ const Resume = () => {
               </svg>
             </div>
           </div>
-
           </Col>
           <Col sm={4}>
           </Col>
