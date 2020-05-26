@@ -114,12 +114,27 @@ const Resume = () => {
         <div className="W1">
           <h3>Research Associate</h3>
           <h5><span>Dr. Mayadevi N</span> | Feb 2020 - NOW</h5>
-          <p align={"left"}>Bachelor of Technology in Electrical and Electronics Engineering</p>
+          <ul>
+            <li><p align={"left"}>Translated broad spectrum project requirements for Fast
+                                  Fourier Transform modules to detailed hardware
+                                  architecture design concepts.</p></li>
+            <li><p align={"left"}>Developed test methodology to check product features and
+                                  devised test plans for modules.</p></li>
+            <li><p align={"left"}>Planned and prioritized field testing engagements of FPGA
+                                  technology.</p></li>
+          </ul>
         </div>
         <div className="W1">
           <h3>Intern</h3>
           <h5><span>Concepts.ai</span> | May 2019 - Sept 2019</h5>
-          <p align={"left"}>Higher Secondary Education</p>
+          <ul>
+            <li><p align={"left"}>Planned and engineered RESTful web services to
+                                  manipulate dynamic datasets.</p></li>
+            <li><p align={"left"}>Designed, implemented and monitored web pages and sites
+                                  for continuous improvement.</p></li>
+            <li><p align={"left"}>Designed and developed web backends using
+                                  Django Framework.</p></li>
+          </ul>
         </div>
         </Col>
         </Row>
